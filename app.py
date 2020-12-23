@@ -24,7 +24,7 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html=True)
 
-    LIMIT_BAL = st.text_input("Limited Balance (in New Taiwanese (NT) dollar)")
+    LIMIT_BAL = st.text_input("Limited Balance (in $)")
     
     education_status = ["graduate school", "university", "high school", "others"]
     marital_status = ["Married","single", "others"]
